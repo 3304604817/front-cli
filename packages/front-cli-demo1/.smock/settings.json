@@ -1,0 +1,21 @@
+{
+  "apiList": [
+    "/iam/hzero/v1/users/self",
+    "/hpfm/v1/0/prompt/zh_CN",
+    "/iam/hzero/v1/menus/tree",
+    "/hpfm/v1/dashboard/layout/role-cards",
+    "/hpfm/v1/lovs/data",
+    "/hpfm/v1/dashboard/layout",
+    "/iam/hzero/v1/member-roles/self-roles",
+    "/hpfm/v1/lovs/value"
+  ],
+  "interceptList": [
+    "/iam/hzero/v1/users/self",
+    "/hpfm/v1/0/prompt/zh_CN",
+    "/iam/hzero/v1/menus/tree",
+    "/hpfm/v1/dashboard/layout/role-cards",
+    "/hpfm/v1/lovs/data",
+    "/hpfm/v1/dashboard/layout",
+    "/iam/hzero/v1/member-roles/self-roles"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "197e9b8dbb631971421585ef69213b22f13d29ed": {
+    "method": "GET",
+    "request": {
+      "params": {
+        "lovCode": "HPFM.DASHBOARD_CARD.TYPE"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/hpfm/v1/lovs/value",
+      "status": 200,
+      "headers": {
+        "date": "Sat, 04 Jul 2020 03:28:37 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": [
+        {
+          "value": "schedule",
+          "meaning": "待办类",
+          "orderSeq": 10
+        },
+        {
+          "value": "report",
+          "meaning": "报表类",
+          "orderSeq": 20
+        },
+        {
+          "value": "notice",
+          "meaning": "通知类",
+          "orderSeq": 30
+        }
+      ]
+    }
+  }
+}

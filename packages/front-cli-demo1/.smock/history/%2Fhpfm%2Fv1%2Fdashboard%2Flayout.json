@@ -1,0 +1,61 @@
+{
+  "01985510228a76239baff1404ba29d05b21deb11": {
+    "method": "GET",
+    "request": {
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "path": "/hpfm/v1/dashboard/layout",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 15:14:31 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": [
+        {
+          "code": "test",
+          "w": 1,
+          "h": 1,
+          "x": 0,
+          "y": 0,
+          "name": "test",
+          "initFlag": 0,
+          "cardParams": "none",
+          "cardId": 3
+        },
+        {
+          "code": "HzeroMessage",
+          "w": 118,
+          "h": 20,
+          "x": 0,
+          "y": 32,
+          "name": "系统消息/平台公告",
+          "initFlag": 0,
+          "cardParams": "none",
+          "cardId": 1
+        },
+        {
+          "code": "sap",
+          "w": 119,
+          "h": 31,
+          "x": 0,
+          "y": 1,
+          "name": "sap",
+          "initFlag": 0,
+          "cardParams": "sap",
+          "cardId": 4
+        }
+      ]
+    }
+  }
+}

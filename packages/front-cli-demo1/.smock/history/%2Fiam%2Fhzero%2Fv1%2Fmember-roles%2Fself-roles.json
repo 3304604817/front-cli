@@ -1,0 +1,76 @@
+{
+  "01985510228a76239baff1404ba29d05b21deb11": {
+    "method": "GET",
+    "request": {
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "path": "/iam/hzero/v1/member-roles/self-roles",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 15:50:16 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": [
+        {
+          "id": 1,
+          "name": "平台级角色",
+          "code": "role/site/default/administrator",
+          "level": "site",
+          "tenantId": 0,
+          "parentRoleAssignLevel": "organization",
+          "parentRoleAssignLevelValue": 0,
+          "viewCode": "role/site/default/administrator",
+          "tenantName": "HZERO平台",
+          "inheritable": 1,
+          "assignLevel": "organization",
+          "assignLevelValue": 0,
+          "assignLevelValueMeaning": "HZERO平台",
+          "adminFlag": 0,
+          "assignedFlag": 0,
+          "haveAdminFlag": 0,
+          "manageableFlag": 0,
+          "selectAssignedRoleFlag": false,
+          "memberRoleId": 2,
+          "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHW0NgH/wDpB0MlFrHHZYraa",
+          "enabled": false,
+          "defaultRole": false
+        },
+        {
+          "id": 2,
+          "name": "租户级角色",
+          "code": "role/organization/default/administrator",
+          "level": "organization",
+          "tenantId": 0,
+          "parentRoleAssignLevel": "organization",
+          "parentRoleAssignLevelValue": 0,
+          "viewCode": "role/organization/default/administrator",
+          "tenantName": "HZERO平台",
+          "inheritable": 1,
+          "assignLevel": "organization",
+          "assignLevelValue": 0,
+          "assignLevelValueMeaning": "HZERO平台",
+          "adminFlag": 0,
+          "assignedFlag": 0,
+          "haveAdminFlag": 0,
+          "manageableFlag": 0,
+          "selectAssignedRoleFlag": false,
+          "memberRoleId": 1,
+          "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHU5yJA0k7bL6YoBFnKEvYAC",
+          "enabled": false,
+          "defaultRole": false
+        }
+      ]
+    }
+  }
+}

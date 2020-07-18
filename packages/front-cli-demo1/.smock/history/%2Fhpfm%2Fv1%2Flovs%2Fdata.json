@@ -1,0 +1,50 @@
+{
+  "16835ad55ea7862ff5209c9dac59107da575146c": {
+    "method": "GET",
+    "request": {
+      "params": {
+        "lovCode": "HPFM.LANGUAGE"
+      },
+      "body": {}
+    },
+    "response": {
+      "path": "/hpfm/v1/lovs/data",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 15:17:31 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": [
+        {
+          "objectVersionNumber": 1,
+          "_token": "/uqs6jADKr9uFI6IYFiUG9ba923D7jvuavvUhhaw8zHpkKe/vZ5hScxtDy2/zQEYHOWYH7g3eLwqVAVgjAmzjg==",
+          "id": 1,
+          "code": "zh_CN",
+          "name": "简体中文",
+          "description": "中文(简体)",
+          "value": "zh_CN",
+          "meaning": "简体中文"
+        },
+        {
+          "objectVersionNumber": 1,
+          "_token": "/uqs6jADKr9uFI6IYFiUG9ba923D7jvuavvUhhaw8zHpkKe/vZ5hScxtDy2/zQEYst/Ygg8yyyadoRhWO4IMzQ==",
+          "id": 2,
+          "code": "en_US",
+          "name": "English",
+          "description": "English(US)",
+          "value": "en_US",
+          "meaning": "English"
+        }
+      ]
+    }
+  }
+}

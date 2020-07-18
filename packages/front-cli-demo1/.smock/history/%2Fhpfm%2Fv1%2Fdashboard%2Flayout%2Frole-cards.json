@@ -1,0 +1,79 @@
+{
+  "01985510228a76239baff1404ba29d05b21deb11": {
+    "request": {
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "path": "/hpfm/v1/dashboard/layout/role-cards",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 14:47:51 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": [
+        {
+          "code": "test",
+          "w": 1,
+          "h": 1,
+          "x": 0,
+          "y": 0,
+          "catalogType": "notice",
+          "catalogMeaning": "通知类",
+          "name": "test",
+          "defaultDisplayFlag": 0,
+          "cardParams": "none",
+          "cardId": 3
+        },
+        {
+          "code": "HzeroMessage",
+          "w": 3,
+          "h": 3,
+          "x": 0,
+          "y": 0,
+          "catalogType": "notice",
+          "catalogMeaning": "通知类",
+          "name": "系统消息/平台公告",
+          "defaultDisplayFlag": 0,
+          "cardParams": "none",
+          "cardId": 1
+        },
+        {
+          "code": "Workflow",
+          "w": 9,
+          "h": 6,
+          "x": 0,
+          "y": 0,
+          "catalogType": "schedule",
+          "catalogMeaning": "待办类",
+          "name": "工作流/待办事项",
+          "defaultDisplayFlag": 0,
+          "cardParams": "none",
+          "cardId": 2
+        },
+        {
+          "code": "sap",
+          "w": 10,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "catalogType": "notice",
+          "catalogMeaning": "通知类",
+          "name": "sap",
+          "defaultDisplayFlag": 0,
+          "cardParams": "sap",
+          "cardId": 4
+        }
+      ]
+    }
+  }
+}

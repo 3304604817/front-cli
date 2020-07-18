@@ -1,0 +1,65 @@
+{
+  "01985510228a76239baff1404ba29d05b21deb11": {
+    "request": {
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "path": "/iam/hzero/v1/users/self",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 03 Jul 2020 14:47:49 GMT",
+        "content-type": "application/json;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "expires": "0",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "x-xss-protection": "1; mode=block",
+        "pragma": "no-cache",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff"
+      },
+      "data": {
+        "_token": "keUs24wdEJx8Lgl9KbyHaW3Pyg8anglhvllGobP5iHXp9gG7BAVD+JyOIJftOPBm",
+        "id": 1,
+        "loginName": "admin",
+        "email": "admin@hzero.com",
+        "organizationId": 0,
+        "realName": "超级管理员",
+        "phone": "18666666666",
+        "internationalTelCode": "+86",
+        "imageUrl": "http://minio.hf.jajabjbj.top/hf-public/hiam02/0/488220144b9e472ea21bcb3b8d4437e3@v2-810e356b47e09c310a842a11c8fbdb7e_1200x500.jpg",
+        "language": "zh_CN",
+        "languageName": "简体中文",
+        "timeZone": "GMT+8",
+        "lastPasswordUpdatedAt": "2020-02-14 01:37:58",
+        "countryId": 1,
+        "countryName": "中国",
+        "regionId": 0,
+        "phoneCheckFlag": 1,
+        "emailCheckFlag": 1,
+        "passwordResetFlag": 1,
+        "tenantName": "HZERO平台",
+        "tenantNum": "HZERO",
+        "dateFormat": "YYYY-MM-DD",
+        "timeFormat": "HH:mm:ss",
+        "dateTimeFormat": "YYYY-MM-DD HH:mm:ss",
+        "changePasswordFlag": 0,
+        "title": "dev",
+        "logo": "http://minio.hf.jajabjbj.top/hf-public/hpfm05/0/1703b75d516b464daafabff7a4ba30e4@img.png",
+        "menuLayout": "inline",
+        "menuLayoutTheme": "color",
+        "roleMergeFlag": 1,
+        "tenantId": 0,
+        "currentRoleId": 1,
+        "currentRoleCode": "role/site/default/administrator",
+        "currentRoleName": "平台级角色",
+        "currentRoleLevel": "site",
+        "favicon": "",
+        "dataHierarchyFlag": 0,
+        "recentAccessTenantList": []
+      }
+    }
+  }
+}
