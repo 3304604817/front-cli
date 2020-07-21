@@ -13,7 +13,7 @@
     "hzero-cli": "~1.5.1-alpha.0",
     "hzero-cli-preset-ui": "^2.1.17",
     "lerna": "3.20.2",
-    "standard-version": "^5.0.2",
+    "standard-version": "^8.0.1",
     "typescript": "^3.7.4",
     "yarn": "^1.13.0"
   },
