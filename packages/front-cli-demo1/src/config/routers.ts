@@ -1,13 +1,6 @@
 import { RoutersConfig } from 'hzero-boot/lib/typings/IRouterConfig';
 
 const routerConfig: RoutersConfig = [
-  // Insert New Router
-  {
-      path: '/forecastorder/head-line',
-      component: () => import('../pages/Demo/head-line'),
-      authorized: true,
-      title: 'head-line',
-  },
   {
     path: '/demo1/hello',
     component: () => import('../pages/hello/HelloDemo1Page'),
@@ -22,4 +15,4 @@ const routerConfig: RoutersConfig = [
   },
 ];
 
-export default routerConfig ;
+export default routerConfig;

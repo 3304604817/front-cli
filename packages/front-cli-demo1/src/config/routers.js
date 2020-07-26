@@ -1,7 +1,7 @@
 module.exports = [
   {
-    path: "/test-modules1/hello",
-    component: () => import("../pages/hellojs/HelloWorldPage"),
+    path: '/test-modules1/hello',
+    component: () => import('../pages/hellojs/HelloWorldPage'),
     authorized: true,
     title: 'Hello',
   },
@@ -35,9 +35,9 @@ module.exports = [
     ],
   },
   {
-    path: '/demo/head-line',
-    component: () => import('../pages/Demo/head-line'),
+    path: '/demo/index',
+    component: () => import('../pages/Demo/head-line/index.tsx'),
     authorized: true,
-    title: 'head-line',
+    title: 'Demo',
   },
 ];
